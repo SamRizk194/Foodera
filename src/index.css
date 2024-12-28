@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 1000px;
+}
+
+code {
+  font-family: "Quicksand", serif;
+}

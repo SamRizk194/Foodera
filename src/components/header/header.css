@@ -1,0 +1,60 @@
+header {
+  margin-top: 0px;
+  background: url("../../assets/header.jpg") center no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: left;
+}
+
+header .row {
+  padding: 70px 0;
+}
+
+header h2 {
+  color: #43121d;
+  font-size: 48px;
+  font-family: "Quicksand", serif;
+  font-weight: bold;
+}
+header p {
+  margin-top: 25px;
+  color: #333;
+  font-size: 16px;
+  font-family: "Quicksand", serif;
+  /* line-height: 60px; */
+}
+
+header button {
+  font-weight: bold;
+  width: 160px;
+  padding: 8px;
+  margin: 30px 10px 00;
+}
+.one {
+  background-color: #a82d49;
+  color: white;
+  border: 3px solid #a82d49;
+  transition: 0.3s ease;
+}
+.one:hover {
+  border: 3px solid #a82d49;
+  background-color: white;
+  color: #a82d49;
+}
+
+.two {
+  border: 3px solid white;
+  background-color: white;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.19);
+  color: black;
+  transition: 0.3s ease;
+}
+
+.two:hover {
+  border: 3px solid #a82d49;
+  background-color: white;
+  color: #a82d49;
+}
