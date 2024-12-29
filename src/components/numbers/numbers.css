@@ -1,0 +1,19 @@
+.number {
+  background-color: #a82d49;
+  color: white;
+  padding: 40px 0 35px;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: bold;
+}

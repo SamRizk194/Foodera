@@ -15,6 +15,8 @@ const Header = () => {
               <button className="one">Order Now</button>
               <button className="two">Learn More</button>
             </div>
+
+            <div className="col-md-6"></div>
           </div>
         </div>
       </header>
