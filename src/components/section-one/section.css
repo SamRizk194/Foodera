@@ -1,0 +1,40 @@
+.sec-1 {
+  margin-top: 80px;
+  font-family: "Quicksand", serif;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #43121d;
+  padding-top: 20px;
+  font-weight: bold;
+}
+p {
+  padding-top: 20px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #555;
+}
+
+.butn {
+  border: 3px solid #ab3550;
+  background-color: #ab3550;
+  margin-top: 15px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+
+  transition: 0.3s ease;
+}
+
+.butn:hover {
+  border: 3px solid #a82d49;
+  background-color: white;
+  color: #a82d49;
+  box-sizing: border-box;
+}
