@@ -2,9 +2,9 @@
   background-color: #a82d49;
   color: white;
   padding: 40px 0 35px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 h3 {

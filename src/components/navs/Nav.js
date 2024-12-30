@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./navs.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -6,8 +6,25 @@ import Navbar from "react-bootstrap/Navbar";
 import logo from "./../../assets/logo.png";
 
 const Navs = () => {
+  const [scrolling, setScrolling] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setScrolling(true);
+    } else {
+      setScrolling(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <Navbar expand="lg">
+    <Navbar sticky="top" expand="lg" className={scrolling ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} title="logo" />

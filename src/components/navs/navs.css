@@ -1,3 +1,11 @@
+.navbar {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 nav {
   background-color: #fff;
   width: 100%;
