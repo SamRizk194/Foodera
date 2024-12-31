@@ -1,0 +1,11 @@
+.four h1 {
+  color: #43121d;
+  margin-top: 80px;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+
+.four p {
+  color: #555;
+  margin-bottom: 80px;
+}

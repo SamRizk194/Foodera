@@ -1,0 +1,24 @@
+.cont {
+  background: url(./../../assets/001.jpg) center no-repeat;
+  font-family: "Quicksand", serif;
+  padding: 50px;
+}
+.cont h2 {
+  color: #a82d49;
+  padding-top: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.cont p {
+  padding: 5px 100px;
+  font-size: 13px;
+  line-height: 27px;
+  color: #555;
+  font-weight: bold;
+}
+
+.cont a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #43121d;
+}

@@ -3,9 +3,9 @@ body {
   font-family: "Quicksand", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 1000px;
+  height: 10000px;
 }
 
 code {
-  font-family: "Quicksand", serif;
+  font-family: "Quicksand", sans-serif;
 }

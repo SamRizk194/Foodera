@@ -1,23 +1,20 @@
-.sec-1 {
+.sec-2 {
   margin-top: 90px;
-  font-family: "Quicksand", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 img {
-  max-width: 100%;
-  border-radius: 10px;
-  box-sizing: border-box;
+  overflow: hidden;
+  height: auto;
 }
 
 h2 {
   color: #43121d;
-  padding-top: 20px;
-  font-weight: bold;
 }
-p {
-  padding-top: 20px;
+
+p,
+ul li {
   font-size: 17px;
-  line-height: 27px;
   color: #555;
 }
 
