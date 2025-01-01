@@ -1,5 +1,7 @@
 .cont {
   background: url(./../../assets/001.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 350px;
   font-family: "Quicksand", serif;
   padding: 50px;
 }

@@ -1,11 +1,38 @@
 .four h1 {
   color: #43121d;
-  margin-top: 80px;
+  margin-top: 90px;
   font-weight: bold;
   font-family: "Quicksand", serif;
 }
 
 .four p {
   color: #555;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
+}
+.five {
+  font-family: "Quicksand", serif;
+}
+
+.five button {
+  background: #a82d49;
+  border: 3px solid #a82d49;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 11px 28px;
+  margin-left: 10px;
+}
+.five span {
+  text-decoration: line-through;
+  color: #999;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.1;
+}
+.five p {
+  font-size: 21px;
+  font-weight: bold;
+  color: #a82d49;
 }

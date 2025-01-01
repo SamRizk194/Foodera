@@ -1,5 +1,8 @@
 import React from "react";
 import "./sec4rd.css";
+import img01 from "./../../assets/01.jpg";
+import img02 from "./../../assets/02.jpg";
+import img03 from "./../../assets/03.jpg";
 
 const Sec4rd = () => {
   return (
@@ -17,13 +20,41 @@ const Sec4rd = () => {
             Separated they live in Bookmarksgrove.
           </p>
         </div>
+        <div className="col-md-2"></div>
       </div>
 
-      <div className="container">
-        <div className="row text-center">
-          <div className="col-md-4">45</div>
-          <div className="col-md-4">45</div>
-          <div className="col-md-4">45</div>
+      <div className="row five">
+        <div className="col-md-4">
+          <img src={img01} title="" />
+          <h5>Rainbow Vegetable Sandwich</h5>
+          <h6>Time: 15 - 20 Minutes | Serves: 1</h6>
+          <p>
+            $10.50 <span>$11.70</span>
+          </p>
+          <hr></hr>
+          <button className="">Order Now</button>
+        </div>
+
+        <div className="col-md-4">
+          <img src={img02} title="" />
+          <h5>Rainbow Vegetable Sandwich</h5>
+          <h6>Time: 15 - 20 Minutes | Serves: 1</h6>
+          <p>
+            $9.20 <span>$10.50</span>
+          </p>
+          <hr></hr>
+          <button className="">Order Now</button>
+        </div>
+
+        <div className="col-md-4">
+          <img src={img03} title="" />
+          <h5>Rainbow Vegetable Sandwich</h5>
+          <h6>Time: 15 - 20 Minutes | Serves: 1</h6>
+          <p>
+            $12.50 <span>$13.20</span>
+          </p>
+          <hr></hr>
+          <button className="">Order Now</button>
         </div>
       </div>
     </div>
