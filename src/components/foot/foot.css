@@ -1,0 +1,28 @@
+.pitza {
+  background: url("./../../assets/222.jpg") center no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 170px;
+}
+
+.pitza h4 {
+  color: white;
+  margin-top: 70px;
+}
+
+.pitza button {
+  border: 3px solid #ab3550;
+  background-color: #ab3550;
+  margin-top: 60px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.pitza button:hover {
+  border: 3px solid #a82d49;
+  background-color: white;
+  color: #a82d49;
+  box-sizing: border-box;
+}

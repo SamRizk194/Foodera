@@ -7,6 +7,7 @@ import Sec3rd from "./sec-3/Sec3rd";
 import Sec4rd from "./sec-4/Sec4rd";
 import Slider from "./../components/slider/Slider";
 import Text from "./text/Text";
+import Foot from "./foot/Foot";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Sec4rd />
       <Slider />
       <Text />
+      <Foot />
     </>
   );
 };
