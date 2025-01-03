@@ -5,6 +5,7 @@ import Section from "./section-one/Section";
 import Sectiontwo from "./section-two/Sectiontwo";
 import Sec3rd from "./sec-3/Sec3rd";
 import Sec4rd from "./sec-4/Sec4rd";
+import Slider from "./../components/slider/Slider";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Sectiontwo />
       <Sec3rd />
       <Sec4rd />
+      <Slider />
     </>
   );
 };

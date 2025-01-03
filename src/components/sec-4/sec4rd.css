@@ -18,11 +18,11 @@
   border: 3px solid #a82d49;
   color: #fff;
   font-size: 16px;
-  line-height: 20px;
   font-weight: bold;
   text-transform: capitalize;
   padding: 11px 28px;
   margin-left: 10px;
+  box-sizing: border-box;
 }
 .five span {
   text-decoration: line-through;

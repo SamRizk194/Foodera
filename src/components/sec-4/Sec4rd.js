@@ -32,7 +32,7 @@ const Sec4rd = () => {
             $10.50 <span>$11.70</span>
           </p>
           <hr></hr>
-          <button className="">Order Now</button>
+          <button>Order Now</button>
         </div>
 
         <div className="col-md-4">
@@ -43,7 +43,7 @@ const Sec4rd = () => {
             $9.20 <span>$10.50</span>
           </p>
           <hr></hr>
-          <button className="">Order Now</button>
+          <button>Order Now</button>
         </div>
 
         <div className="col-md-4">
@@ -54,7 +54,7 @@ const Sec4rd = () => {
             $12.50 <span>$13.20</span>
           </p>
           <hr></hr>
-          <button className="col-md-4">Order Now</button>
+          <button>Order Now</button>
         </div>
       </div>
     </div>

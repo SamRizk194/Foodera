@@ -1,0 +1,51 @@
+.slider {
+  background-color: #a82d49;
+  margin: 150px 0;
+  box-sizing: border-box;
+}
+.slider h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.slider .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.carousel-item {
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.author {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  color: #a82d49;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 350px;
+}
+.carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50%;
+}
