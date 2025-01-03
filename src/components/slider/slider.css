@@ -1,48 +1,44 @@
 .slider {
   background-color: #a82d49;
+  padding-bottom: 120px;
   margin: 150px 0;
-  box-sizing: border-box;
 }
+
 .slider h1 {
   color: white;
   text-align: center;
-  margin-bottom: 80px;
-}
-
-.slider .row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  padding: 80px;
 }
 
 .carousel-item {
-  text-align: center;
   background-color: white;
   margin: auto;
   border-radius: 20px;
-  position: relative;
+  text-align: center;
+}
+
+.carousel-caption p {
+  line-height: 23px;
 }
 
 .carousel-item img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  object-fit: cover;
-  margin-top: 30px;
-  margin-bottom: 200px;
+  margin-top: 20px;
+  margin-bottom: 220px;
 }
 
 .author {
-  display: block;
   margin-top: 10px;
   font-style: italic;
+  font-weight: bold;
   color: #a82d49;
 }
 
 .carousel-indicators {
-  position: absolute;
-  top: 350px;
+  position: fixed;
+  top: 370px;
 }
 .carousel-indicators button {
   width: 15px !important;

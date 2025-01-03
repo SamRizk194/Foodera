@@ -1,0 +1,26 @@
+.sec-5 {
+  margin-top: 70px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.sec-5 h1 {
+  text-align: center;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  color: #43121d;
+}
+.sec-5 h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 19px;
+  color: #43121d;
+}
+.sec-5 p {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-top: 0;
+  font-size: 15px;
+}
+.sec-5 span {
+  color: red;
+}

@@ -7,9 +7,14 @@ import "./slider.css";
 const Slider = () => {
   return (
     <div className="container-fluid slider">
-      <div className="row row justify-content-center align-items-center ">
-        <div className="col-md-12 col-lg-12">
+      <div className="row">
+        <div className="col-lg-12 col-md-12">
           <h1>Testimonials</h1>
+        </div>
+      </div>
+
+      <div className="row justify-content-center align-items-center ">
+        <div className="col-md-12 col-lg-12">
           <Carousel>
             <Carousel.Item>
               <img src={per1} title="" />
