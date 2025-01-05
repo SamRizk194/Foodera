@@ -44,3 +44,94 @@
   color: #a82d49;
   box-sizing: border-box;
 }
+
+.hurry {
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  color: #43121d;
+}
+.herry h1 {
+  color: #43121d;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+
+.subscribe {
+  height: 150px;
+  width: 100%;
+}
+
+.hurry input {
+  height: 50px;
+  width: 320px;
+  padding: 0 20px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  border: none;
+  border-radius: 0px;
+  background: transparent;
+  border: 3px solid #e5e5e5;
+  color: #000;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 1;
+}
+
+.hurry button {
+  border: 3px solid #ab3550;
+  background-color: #ab3550;
+  margin-top: 20px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.hurry button:hover {
+  border: 3px solid #a82d49;
+  background-color: white;
+  color: #a82d49;
+  box-sizing: border-box;
+}
+
+/*SECOUND SECTION*/
+.foooter {
+  margin-top: 40px;
+  height: 270px;
+  padding: 20px;
+  background-color: #a82d49;
+  font-family: "Quicksand", sans-serif;
+}
+
+.footerP a {
+  color: white;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px 0;
+}
+.copy {
+  width: 5px;
+  height: 5px;
+  padding-top: 80px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.social a {
+  font-size: 25px;
+  color: white;
+  transition: all 0.3s ease;
+}
