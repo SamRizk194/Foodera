@@ -7,7 +7,7 @@
 
 .four p {
   color: #555;
-  margin-bottom: 90px;
+  margin-bottom: 10px;
 }
 .five {
   font-family: "Quicksand", serif;
@@ -35,4 +35,7 @@
   font-size: 21px;
   font-weight: bold;
   color: #a82d49;
+}
+.five img {
+  margin-top: 80px;
 }

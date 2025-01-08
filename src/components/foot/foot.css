@@ -47,8 +47,6 @@
 
 .hurry {
   margin-top: 100px;
-  margin-left: 0;
-  margin-right: 0;
   color: #43121d;
 }
 .herry h1 {
@@ -61,12 +59,11 @@
 
 .subscribe {
   height: 150px;
-  width: 100%;
 }
 
 .hurry input {
   height: 50px;
-  width: 320px;
+  width: 300px;
   padding: 0 20px;
   font-size: 14px;
   letter-spacing: 0px;
@@ -78,7 +75,7 @@
   color: #000;
   font-weight: 700;
   margin-top: 20px;
-  margin-left: 1;
+  margin-right: 10px;
 }
 
 .hurry button {
@@ -89,6 +86,7 @@
   color: white;
   font-weight: bold;
   transition: 0.3s ease;
+  margin-left: 15px;
 }
 
 .hurry button:hover {

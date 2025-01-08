@@ -21,8 +21,8 @@ const Slider = () => {
               <Carousel.Caption>
                 <p>
                   "Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live far from the countries Vokalia."
+                  countries Vokalia and Consonantia, there live the blind
+                  texts."
                 </p>
                 <span class="author">Johnthan Doe - UX Designer</span>
               </Carousel.Caption>
@@ -32,8 +32,8 @@ const Slider = () => {
               <Carousel.Caption>
                 <p>
                   "Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live far from the countries Vokalia."
+                  countries Vokalia and Consonantia, there live the blind
+                  texts."
                 </p>
                 <span class="author">Johnthan Doe - UX Designer</span>
               </Carousel.Caption>
@@ -43,8 +43,8 @@ const Slider = () => {
               <Carousel.Caption>
                 <p>
                   "Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live far from the countries Vokalia."
+                  countries Vokalia and Consonantia, there live the blind
+                  texts."
                 </p>
                 <span class="author">Johnthan Doe - UX Designer</span>
               </Carousel.Caption>

@@ -2,7 +2,6 @@ import React from "react";
 import "./foot.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// استيراد الأيقونات التي تريد استخدامها
 import {
   faFacebook,
   faTwitter,
@@ -26,7 +25,7 @@ const Foot = () => {
         </div>
       </div>
 
-      <div className="container text-center hurry">
+      <div className="container-fluid text-center hurry">
         <div className="col-md-12">
           <h1>
             Hurry up! Subscribe our newsletter <br /> and get 25% Off
@@ -46,7 +45,7 @@ const Foot = () => {
                   type="email"
                 />
               </div>
-              <div className="col-md-2">
+              <div className="col-md-2 justify-content-center">
                 <button type="submit">Subscribe</button>
               </div>
               <div className="col-md-3"></div>
@@ -67,27 +66,27 @@ const Foot = () => {
 
         <div className="row">
           <div className="col-md-12 social text-center">
-            <a href="#">
+            <a href="https://www.facebook.com" target="_blank">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="#">
+            <a href="https://www.twitter.com" target="_blank">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com" target="_blank">
               <FontAwesomeIcon icon={faYoutube} />
             </a>
-            <a href="#">
+            <a href="https://www.dribbble.com" target="_blank">
               <FontAwesomeIcon icon={faDribbble} />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com" target="_blank">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
         </div>
-        <div className="container text-center copy">
+        <div className="container-fluid text-center copy">
           © 2021. Foodera. All rights reserved.
         </div>
       </div>
