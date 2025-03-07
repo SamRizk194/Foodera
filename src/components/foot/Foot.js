@@ -43,6 +43,7 @@ const Foot = () => {
                   id="eaddress"
                   data-validate="validate(required, email)"
                   type="email"
+                  autoComplete="email"
                 />
               </div>
               <div className="col-md-2 justify-content-center">
@@ -57,31 +58,31 @@ const Foot = () => {
       <div className="container-fluid foooter">
         <div className="row">
           <div className="col-md-12 footerP text-center">
-            <a href="#">Register</a>
-            <a href="#">Forum</a>
-            <a href="#">Affiliate</a>
-            <a href="#">FAQ</a>
+            <button href="#">Register</button>
+            <button href="#">Forum</button>
+            <button href="#">Affiliate</button>
+            <button href="#">FAQ</button>
           </div>
         </div>
 
         <div className="row">
           <div className="col-md-12 social text-center">
-            <a href="https://www.facebook.com" target="_blank">
+            <a href="https://www.facebook.com" target="_self">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="https://www.twitter.com" target="_blank">
+            <a href="https://www.twitter.com" target="_self">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="https://www.youtube.com" target="_blank">
+            <a href="https://www.youtube.com" target="_self">
               <FontAwesomeIcon icon={faYoutube} />
             </a>
-            <a href="https://www.dribbble.com" target="_blank">
+            <a href="https://www.dribbble.com" target="_self">
               <FontAwesomeIcon icon={faDribbble} />
             </a>
-            <a href="https://www.linkedin.com" target="_blank">
+            <a href="https://www.linkedin.com" target="_self">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://www.instagram.com" target="_blank">
+            <a href="https://www.instagram.com" target="_self">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>

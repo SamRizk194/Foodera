@@ -17,36 +17,36 @@ const Slider = () => {
         <div className="col-md-12 col-lg-12">
           <Carousel>
             <Carousel.Item>
-              <img src={per1} title="" />
+              <img src={per1} title="" alt="per1" />
               <Carousel.Caption>
                 <p>
                   "Far far away, behind the word mountains, far from the
                   countries Vokalia and Consonantia, there live the blind
                   texts."
                 </p>
-                <span class="author">Johnthan Doe - UX Designer</span>
+                <span className="author">Johnthan Doe - UX Designer</span>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={per2} title="" />
+              <img src={per2} title="" alt="per2" />
               <Carousel.Caption>
                 <p>
                   "Far far away, behind the word mountains, far from the
                   countries Vokalia and Consonantia, there live the blind
                   texts."
                 </p>
-                <span class="author">Johnthan Doe - UX Designer</span>
+                <span className="author">Johnthan Doe - UX Designer</span>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={per1} title="" />
+              <img src={per1} title="" alt="per1" />
               <Carousel.Caption>
                 <p>
                   "Far far away, behind the word mountains, far from the
                   countries Vokalia and Consonantia, there live the blind
                   texts."
                 </p>
-                <span class="author">Johnthan Doe - UX Designer</span>
+                <span className="author">Johnthan Doe - UX Designer</span>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
