@@ -4,7 +4,7 @@ import per1 from "./../../assets/1.jpg";
 import per2 from "./../../assets/2.jpg";
 import "./slider.css";
 
-const Slider = () => {
+function Slider() {
   return (
     <div className="container-fluid slider">
       <div className="row">
@@ -54,6 +54,6 @@ const Slider = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Slider;

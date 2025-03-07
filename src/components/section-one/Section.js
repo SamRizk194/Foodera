@@ -7,7 +7,7 @@ const Section = () => {
     <div className="container sec-1">
       <div className="row">
         <div className="col-md-7">
-          <img src={food} title="img" />
+          <img src={food} title="img" alt="food" />
         </div>
         <div className="col-md-5 text-left">
           <h2>

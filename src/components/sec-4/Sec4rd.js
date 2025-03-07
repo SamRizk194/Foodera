@@ -4,7 +4,7 @@ import img01 from "./../../assets/01.jpg";
 import img02 from "./../../assets/02.jpg";
 import img03 from "./../../assets/03.jpg";
 
-const Sec4rd = () => {
+function Sec4rd() {
   return (
     <div className="container ">
       <div className="row four">
@@ -25,7 +25,7 @@ const Sec4rd = () => {
 
       <div className="row five">
         <div className="col-md-4">
-          <img src={img01} title="" />
+          <img src={img01} title="" alt="" />
           <h5>Rainbow Vegetable Sandwich</h5>
           <h6>Time: 15 - 20 Minutes | Serves: 1</h6>
           <p>
@@ -36,7 +36,7 @@ const Sec4rd = () => {
         </div>
 
         <div className="col-md-4">
-          <img src={img02} title="" />
+          <img src={img02} title="" alt="" />
           <h5>Rainbow Vegetable Sandwich</h5>
           <h6>Time: 15 - 20 Minutes | Serves: 1</h6>
           <p>
@@ -47,7 +47,7 @@ const Sec4rd = () => {
         </div>
 
         <div className="col-md-4">
-          <img src={img03} title="" />
+          <img src={img03} title="" alt="" />
           <h5>Rainbow Vegetable Sandwich</h5>
           <h6>Time: 15 - 20 Minutes | Serves: 1</h6>
           <p>
@@ -59,6 +59,6 @@ const Sec4rd = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Sec4rd;

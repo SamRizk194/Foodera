@@ -2,7 +2,7 @@ import React from "react";
 import photo from "./../../assets/04.png";
 import "./sectiontwo.css";
 
-const Sectiontwo = () => {
+function Sectiontwo() {
   return (
     <div className="container sec-2">
       <div className="row">
@@ -25,11 +25,11 @@ const Sectiontwo = () => {
           <button className="butn">Learn More</button>
         </div>
         <div className="col-md-7 col-lg-7 ">
-          <img src={photo} title="photo" />
+          <img src={photo} title="photo" alt="phot" />
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Sectiontwo;

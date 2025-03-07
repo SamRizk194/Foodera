@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "./../../assets/logo.png";
 
-const Navs = () => {
+function Navs() {
   const [scrolling, setScrolling] = useState(false);
 
   const handleScroll = () => {
@@ -27,7 +27,7 @@ const Navs = () => {
     <Navbar sticky="top" expand="lg" className={scrolling ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} title="logo" />
+          <img src={logo} title="logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -45,6 +45,6 @@ const Navs = () => {
       </Container>
     </Navbar>
   );
-};
+}
 
 export default Navs;

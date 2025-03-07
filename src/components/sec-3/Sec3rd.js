@@ -1,7 +1,7 @@
 import React from "react";
 import "./sec3rd.css";
 
-const Sec3rd = () => {
+function Sec3rd() {
   return (
     <div className="container-fluid text-center cont">
       <div className="row">
@@ -17,11 +17,11 @@ const Sec3rd = () => {
             purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat
             tellus.
           </p>
-          <a href="#">Watch Our Story</a>
+          <button href="">Watch Our Story</button>
         </div>
         <div className="col-md-1"></div>
       </div>
     </div>
   );
-};
+}
 export default Sec3rd;

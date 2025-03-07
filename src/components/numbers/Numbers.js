@@ -1,7 +1,7 @@
 import React from "react";
 import "./numbers.css";
 
-const Numbers = () => {
+function Numbers() {
   return (
     <div className="container-fluid  number ">
       <div className="row align-items-center">
@@ -27,5 +27,5 @@ const Numbers = () => {
       </div>
     </div>
   );
-};
+}
 export default Numbers;

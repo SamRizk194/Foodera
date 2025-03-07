@@ -9,7 +9,7 @@ import Slider from "./../components/slider/Slider";
 import Text from "./text/Text";
 import Foot from "./foot/Foot";
 
-const Home = () => {
+function Home() {
   return (
     <>
       <Header />
@@ -23,5 +23,5 @@ const Home = () => {
       <Foot />
     </>
   );
-};
+}
 export default Home;

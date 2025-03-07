@@ -1,6 +1,7 @@
 .background-container {
   background: url(./../../assets/222.jpg) center/cover no-repeat;
   position: relative;
+  background-attachment: fixed;
   padding: 0 !important;
   width: 100%;
   height: 150px;

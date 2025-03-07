@@ -24,10 +24,14 @@
   box-sizing: border-box;
 }
 
-.cont a {
-  text-decoration: none;
+.cont button {
+  background-color: transparent;
+  border: none;
   box-sizing: border-box;
   font-weight: bold;
   color: #43121d;
   font-size: 20px;
+}
+button:hover {
+  color: rgb(197, 56, 56);
 }

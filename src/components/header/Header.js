@@ -1,6 +1,12 @@
 import React from "react";
 import "./header.css";
-const Header = () => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCartShopping,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
+
+function Header() {
   return (
     <>
       <header>
@@ -12,16 +18,21 @@ const Header = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 et purus a odio finibus bibendum amet leo.
               </p>
-              <button className="one">Order Now</button>
-              <button className="two">Learn More</button>
+              <button className="one">
+                Order Now
+                <FontAwesomeIcon className="ms-2" icon={faCartShopping} />
+              </button>
+              <button className="two">
+                Learn More
+                <FontAwesomeIcon className="ms-2" icon={faArrowRight} />
+              </button>
             </div>
-
             <div className="col-md-6"></div>
           </div>
         </div>
       </header>
     </>
   );
-};
+}
 
 export default Header;

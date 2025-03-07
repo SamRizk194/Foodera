@@ -11,7 +11,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Foot = () => {
+function Foot() {
   return (
     <>
       <div className="container-fluid background-container">
@@ -93,6 +93,6 @@ const Foot = () => {
       </div>
     </>
   );
-};
+}
 
 export default Foot;
