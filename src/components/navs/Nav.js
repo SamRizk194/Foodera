@@ -33,9 +33,9 @@ function Navs() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About Us</Nav.Link>
+            <Nav.Link href="#we">About Us</Nav.Link>
             <Nav.Link href="#explore">Explore Food</Nav.Link>
-            <Nav.Link href="#reviews">Reviews</Nav.Link>
+            <Nav.Link href="#review">Reviews</Nav.Link>
             <Nav.Link href="#faq">FAQ</Nav.Link>
           </Nav>
           <Nav>

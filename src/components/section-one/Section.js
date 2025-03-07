@@ -4,7 +4,7 @@ import "./section.css";
 
 const Section = () => {
   return (
-    <div className="container sec-1">
+    <div className="container sec-1" id="we">
       <div className="row">
         <div className="col-md-7">
           <img src={food} title="img" alt="food" />

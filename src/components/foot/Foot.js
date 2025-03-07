@@ -58,10 +58,10 @@ function Foot() {
       <div className="container-fluid foooter">
         <div className="row">
           <div className="col-md-12 footerP text-center">
-            <button href="#">Register</button>
-            <button href="#">Forum</button>
-            <button href="#">Affiliate</button>
-            <button href="#">FAQ</button>
+            <button href="#home">Register</button>
+            <button href="#home">Forum</button>
+            <button href="#home">Affiliate</button>
+            <button href="#home">FAQ</button>
           </div>
         </div>
 

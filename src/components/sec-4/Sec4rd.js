@@ -6,7 +6,7 @@ import img03 from "./../../assets/03.jpg";
 
 function Sec4rd() {
   return (
-    <div className="container ">
+    <div className="container" id="explore">
       <div className="row four">
         <div className="col-md-2"></div>
 

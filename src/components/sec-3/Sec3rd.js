@@ -17,7 +17,7 @@ function Sec3rd() {
             purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat
             tellus.
           </p>
-          <button href="">Watch Our Story</button>
+          <button href="#">Watch Our Story</button>
         </div>
         <div className="col-md-1"></div>
       </div>

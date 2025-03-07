@@ -3,7 +3,7 @@ import "./text.css";
 
 const Text = () => {
   return (
-    <div className="container sec-5">
+    <div className="container sec-5" id="faq">
       <div className="row">
         <div className="col-md-12">
           <h1>Frequently Asked Questions</h1>

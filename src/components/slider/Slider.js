@@ -6,7 +6,7 @@ import "./slider.css";
 
 function Slider() {
   return (
-    <div className="container-fluid slider">
+    <div className="container-fluid slider" id="review">
       <div className="row">
         <div className="col-lg-12 col-md-12">
           <h1>Testimonials</h1>
