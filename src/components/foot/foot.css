@@ -113,7 +113,7 @@
   margin: 15px;
   margin-left: 15px;
   font-weight: bold;
-  border: none;
+  border: 1px solid #a82d49;
   width: fit-content;
 }
 
