@@ -25,17 +25,22 @@ function Foot() {
         </div>
       </div>
 
-      <div className="container-fluid text-center hurry">
-        <div className="col-md-12">
-          <h1>
-            Hurry up! Subscribe our newsletter <br /> and get 25% Off
-          </h1>
-          <p>Limited time offer for this month. No credit card required.</p>
+      <div className="container-fluid  hurry">
+        <div className="row">
+          <div className="col-md-12 text-center">
+            <h1>
+              Hurry up! Subscribe our newsletter <br /> and get 25% Off
+            </h1>
+            <p>Limited time offer for this month. No credit card required.</p>
+          </div>
 
-          <form action="#" method="POST">
-            <div className="row subscribe">
-              <div className="col-md-3"></div>
-              <div className="col-md-4">
+          <div className="row subscribe">
+            <div className="col-md-12 ">
+              <form
+                action="#"
+                method="POST"
+                className="d-flex justify-content-center"
+              >
                 <input
                   className="e-mail"
                   placeholder="Email Address here"
@@ -45,13 +50,12 @@ function Foot() {
                   type="email"
                   autoComplete="email"
                 />
-              </div>
-              <div className="col-md-2 justify-content-center">
-                <button type="submit">Subscribe</button>
-              </div>
-              <div className="col-md-3"></div>
+                <button type="submit" className="sm-mt-0">
+                  Subscribe
+                </button>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </div>
 

@@ -76,7 +76,6 @@
   color: #000;
   font-weight: 700;
   margin-top: 20px;
-  margin-right: 10px;
 }
 
 .hurry button {
@@ -87,7 +86,6 @@
   color: white;
   font-weight: bold;
   transition: 0.3s ease;
-  margin-left: 15px;
 }
 
 .hurry button:hover {
@@ -95,6 +93,9 @@
   background-color: white;
   color: #a82d49;
   box-sizing: border-box;
+}
+form {
+  gap: 35px;
 }
 
 /*SECOUND SECTION*/
@@ -140,4 +141,17 @@
   font-size: 25px;
   color: white;
   transition: all 0.3s ease;
+}
+
+@media (max-width: 800px) {
+  .hurry input {
+    width: 200px;
+  }
+  .hurry button {
+    width: 200px;
+  }
+  form {
+    flex-wrap: wrap;
+    gap: 0;
+  }
 }
