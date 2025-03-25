@@ -145,13 +145,18 @@ form {
 
 @media (max-width: 800px) {
   .hurry input {
-    width: 200px;
+    width: 80%;
+    margin-top: 0;
   }
   .hurry button {
-    width: 200px;
+    width: 80%;
   }
   form {
     flex-wrap: wrap;
     gap: 0;
+  }
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
