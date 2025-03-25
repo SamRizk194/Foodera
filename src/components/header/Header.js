@@ -5,37 +5,40 @@ import {
   faCartShopping,
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { Element } from "react-scroll";
 
 function Header() {
   return (
     <>
-      <header>
-        <div className="container" id="home">
-          <div className="row">
-            <div className="col-md-6">
-              <h2>Good food choices are good investments.</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                et purus a odio finibus bibendum amet leo.
-              </p>
+      <Element name="home">
+        <header>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <h2>Good food choices are good investments.</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  et purus a odio finibus bibendum amet leo.
+                </p>
 
-              <a href="#explore">
-                <button className="one">
-                  Order Now
-                  <FontAwesomeIcon className="ms-2" icon={faCartShopping} />
-                </button>
-              </a>
-              <a href="#we">
-                <button className="two">
-                  Learn More
-                  <FontAwesomeIcon className="ms-2" icon={faArrowRight} />
-                </button>
-              </a>
+                <a href="#explore">
+                  <button className="one">
+                    Order Now
+                    <FontAwesomeIcon className="ms-2" icon={faCartShopping} />
+                  </button>
+                </a>
+                <a href="#we">
+                  <button className="two">
+                    Learn More
+                    <FontAwesomeIcon className="ms-2" icon={faArrowRight} />
+                  </button>
+                </a>
+              </div>
+              <div className="col-md-6"></div>
             </div>
-            <div className="col-md-6"></div>
           </div>
-        </div>
-      </header>
+        </header>
+      </Element>
     </>
   );
 }
