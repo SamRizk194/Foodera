@@ -26,7 +26,7 @@
   height: 80px;
   border-radius: 50%;
   margin-top: 40px;
-  margin-bottom: 220px;
+  margin-bottom: 148px;
 }
 
 .author {
@@ -44,4 +44,15 @@
   width: 15px !important;
   height: 15px !important;
   border-radius: 50%;
+  margin-top: -58px;
+}
+
+@media (max-width: 750px) {
+  .carousel-item img {
+    margin-bottom: 220px;
+  }
+
+  .carousel-indicators button {
+    margin-top: 0;
+  }
 }
